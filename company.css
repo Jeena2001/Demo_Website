@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding-bottom: 10px;
+    top: 0;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 30px;
+
+}
+
+.logoname {
+    color: dimgrey;
+
+}
+
+div img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav {
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: dimgray;
+    font-size: small;
+
+}
+
+nav a:hover {
+    color: teal;
+    border-radius: 4px;
+
+}
+
+.intro h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+div.intro {
+
+    background-image: url(./Banner.jpg);
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.para {
+    padding-top: 50px;
+    padding-left: 35%;
+    line-height: 1.8;
+    font-size: larger;
+
+}
+
+div.box {
+    background-color: teal;
+    color: white;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 130px;
+    margin-right: 200px;
+
+}
+
+
+.category-item img {
+    height: 250px;
+    width: 250px;
+}
+
+div.transbox {
+
+    background-color: rgba(238, 235, 235, 0.992);
+
+    opacity: 0.6;
+    width: 250px;
+    margin-left: 5%;
+    transform: translateY(-64px);
+}
+
+
+div.transbox h3 {
+
+    font-weight: bold;
+    color: black;
+}
+
+div.transbox p {
+    color: rgb(115, 114, 114);
+    font-weight: bold;
+}
+
+.shop-now {
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 17px;
+    height: 300px;
+
+
+}
+
+.left {
+    width: 25%;
+    color: white;
+    background-image: url(Employee.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+
+}
+
+.right {
+    width: 75%;
+    color: white;
+
+
+}
+
+.shop-now {
+    text-decoration: none;
+    font-size: x-small;
+    color: black;
+    text-decoration: underline;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.transbox p {
+    color: #333333;
+}
+
+.transbox p,
+h3,
+a {
+    padding-left: 15px;
+}
+
+.emp-details h1 {
+    color: teal;
+    font-size: 25px;
+
+}
+
+form label {
+    font-size: small;
+}
+
+form {
+    padding-left: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 250px;
+    height: 30px;
+
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder {
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+textarea {
+    height: 60px;
+}
+
+.form_left {
+    float: left;
+
+}
+
+.form_right {
+    margin-left: 50%;
+}
+
+.button {
+    margin-top: 80px;
+    margin-left: 50%;
+}
+
+.row {
+    flex: 1;
+}
+
+.button [type="reset"] {
+    background-color: lightgrey;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    color: teal;
+    border: 1px solid teal;
+
+}
+
+
+.button [ type="submit"] {
+    background-color: teal;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.details {
+
+
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 130px;
+    overflow-y: hidden;
+    position: fixed;
+    bottom: 0;
+}
+
+footer {
+    background-color: darkgrey;
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+
+
+}
+
+.copyright {
+    padding-top: 4px;
+}
+
+table {
+    border: 1px solid black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 80px;
+    width: 90%;
+
+}
+
+.emp-details {
+
+    flex: 1;
+    padding: 80px;
+
+
+
+
+}
+
+.emp-details h1 {
+    margin-bottom: 20px;
+
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+table th {
+    text-align: start;
+    padding-left: 8px;
+}
+
+.main-container {
+    background-color: lightgray;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.sub-one {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left: 1px solid black;
+
+
+}
+
+.sub-one img {
+    width: 20px;
+
+    margin-right: 1px;
+
+}
+
+.sub-one two h3,
+p {
+
+    padding-left: 15px;
+
+}
+
+.uparrow {
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 5px;
+
+    width: 40px;
+
+    height: 25px;
+
+    cursor: pointer;
+
+
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
